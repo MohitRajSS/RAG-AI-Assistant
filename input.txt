@@ -1,0 +1,211 @@
+Liver anatomy: The liver is the largest internal organ in the human body and is located in the upper right abdomen beneath the diaphragm. It consists of right and left lobes and receives blood from both the hepatic artery and portal vein.
+
+The liver performs more than 500 essential functions including metabolism, detoxification, protein synthesis, bile production, and storage of vitamins and minerals.
+
+Hepatocytes are the primary functional cells of the liver. They are responsible for producing bile, metabolizing nutrients, and detoxifying harmful substances.
+
+Bile produced by the liver helps digest fats and absorb fat-soluble vitamins such as vitamins A, D, E, and K.
+
+The portal vein carries nutrient-rich blood from the intestines to the liver, allowing the liver to process absorbed nutrients before they reach the rest of the body.
+
+The hepatic artery supplies oxygen-rich blood to liver tissues and works alongside the portal vein to maintain liver function.
+
+The liver stores glucose in the form of glycogen and releases it into the bloodstream when blood sugar levels decrease.
+
+Albumin is the most abundant protein synthesized by the liver and helps maintain blood osmotic pressure and transport various substances.
+
+The liver produces clotting factors that are essential for normal blood coagulation and prevention of excessive bleeding.
+
+The liver detoxifies drugs, alcohol, and environmental toxins by converting them into forms that can be excreted by the kidneys or intestines.
+
+Fatty liver disease occurs when excess fat accumulates in liver cells and may be associated with obesity, diabetes, or alcohol consumption.
+
+Non-alcoholic fatty liver disease is one of the most common chronic liver conditions worldwide and is strongly linked to metabolic syndrome.
+
+Alcoholic liver disease develops due to prolonged excessive alcohol intake and can progress from fatty liver to hepatitis and cirrhosis.
+
+Hepatitis is inflammation of the liver that can result from viral infections, autoimmune disorders, medications, toxins, or alcohol.
+
+Hepatitis A virus is usually transmitted through contaminated food or water and generally causes an acute self-limiting illness.
+
+Hepatitis B virus spreads through blood and body fluids and can cause both acute and chronic liver disease.
+
+Hepatitis C virus is primarily transmitted through blood exposure and is a major cause of chronic liver disease and cirrhosis.
+
+Vaccines are available for hepatitis A and hepatitis B but not for hepatitis C.
+
+Autoimmune hepatitis occurs when the immune system mistakenly attacks liver cells, leading to chronic inflammation.
+
+Cirrhosis is advanced scarring of the liver that disrupts normal liver architecture and function.
+
+Portal hypertension is a common complication of cirrhosis and results from increased resistance to blood flow through the liver.
+
+Ascites refers to the accumulation of fluid within the abdominal cavity and commonly occurs in advanced liver disease.
+
+Esophageal varices are enlarged veins that develop due to portal hypertension and may rupture, causing life-threatening bleeding.
+
+Hepatic encephalopathy is a neurological condition caused by the accumulation of toxins such as ammonia in patients with severe liver dysfunction.
+
+Jaundice is characterized by yellow discoloration of the skin and eyes due to elevated bilirubin levels.
+
+Bilirubin is produced during the breakdown of red blood cells and is normally processed and excreted by the liver.
+
+Alanine aminotransferase (ALT) is a liver enzyme that increases in the blood when liver cells are damaged.
+
+Aspartate aminotransferase (AST) is another liver enzyme used to evaluate liver injury but may also increase in muscle disorders.
+
+Alkaline phosphatase levels often rise in diseases affecting the bile ducts or bile flow.
+
+Gamma-glutamyl transferase is commonly elevated in alcohol-related liver disease and biliary disorders.
+
+Serum albumin levels may decrease in chronic liver disease due to impaired protein synthesis.
+
+Prothrombin time or INR is commonly used to assess the liver's ability to produce clotting factors.
+
+Liver function tests are a group of blood tests that help evaluate liver health and detect injury or disease.
+
+Ultrasound is often the first imaging technique used to assess liver size, structure, and blood flow.
+
+Computed tomography provides detailed cross-sectional images useful for evaluating liver masses and trauma.
+
+Magnetic resonance imaging offers high-resolution visualization of liver tissue and lesions without ionizing radiation.
+
+Transient elastography measures liver stiffness and is widely used to estimate the degree of fibrosis.
+
+A liver biopsy involves obtaining a small tissue sample for microscopic examination and remains the gold standard for diagnosing some liver diseases.
+
+Hepatocellular carcinoma is the most common primary liver cancer and frequently develops in patients with cirrhosis.
+
+Chronic hepatitis B infection significantly increases the risk of developing liver cancer.
+
+Chronic hepatitis C infection is another major risk factor for hepatocellular carcinoma.
+
+Alpha-fetoprotein is a blood marker that may be elevated in some patients with hepatocellular carcinoma.
+
+Liver metastases are cancers that have spread to the liver from other organs such as the colon, breast, or lung.
+
+The gallbladder stores bile produced by the liver and releases it into the small intestine after meals.
+
+The common bile duct carries bile from the liver and gallbladder into the duodenum.
+
+Gallstones may obstruct bile flow and cause pain, jaundice, or infection.
+
+Cholangitis is an infection of the bile ducts that requires prompt medical treatment.
+
+Primary biliary cholangitis is an autoimmune disease that gradually destroys small bile ducts within the liver.
+
+Primary sclerosing cholangitis is a chronic disease characterized by inflammation and narrowing of bile ducts.
+
+Wilson disease is a genetic disorder causing excessive copper accumulation in the liver and other organs.
+
+Hemochromatosis is a hereditary condition resulting in excessive iron storage that can damage the liver.
+
+Alpha-1 antitrypsin deficiency is an inherited disorder that may cause liver disease and lung disease.
+
+Drug-induced liver injury can occur from prescription medications, herbal supplements, or over-the-counter drugs.
+
+Acetaminophen overdose is one of the leading causes of acute liver failure in many countries.
+
+Acute liver failure is a rapid decline in liver function that may require emergency liver transplantation.
+
+Liver transplantation is a life-saving treatment for selected patients with end-stage liver disease or acute liver failure.
+
+Living donor liver transplantation uses a portion of a healthy donor's liver, which can regenerate over time.
+
+The liver has remarkable regenerative capacity and can recover significant mass after surgical removal.
+
+Fibrosis refers to the accumulation of scar tissue in the liver due to chronic injury.
+
+Steatohepatitis combines fat accumulation with inflammation and liver cell injury.
+
+Metabolic dysfunction-associated steatotic liver disease is closely linked to obesity and insulin resistance.
+
+Regular exercise can reduce liver fat and improve metabolic health in individuals with fatty liver disease.
+
+Gradual weight loss is associated with improvements in liver inflammation and fibrosis risk.
+
+A balanced diet rich in vegetables, fruits, whole grains, and lean protein supports liver health.
+
+Excessive alcohol consumption increases the risk of liver inflammation, fibrosis, cirrhosis, and cancer.
+
+Smoking may worsen liver disease progression and increase the risk of liver cancer.
+
+People with chronic liver disease should consult healthcare professionals before using herbal supplements.
+
+Coffee consumption has been associated in some studies with lower risks of liver fibrosis and cirrhosis.
+
+The liver stores vitamins A, D, B12, and minerals such as iron and copper.
+
+Ammonia is normally converted into urea by the liver and eliminated through the kidneys.
+
+The urea cycle is an important metabolic pathway that prevents toxic ammonia accumulation.
+
+Kupffer cells are specialized macrophages located within the liver that help remove pathogens and cellular debris.
+
+Sinusoids are specialized blood vessels within the liver that facilitate exchange between blood and hepatocytes.
+
+The space of Disse is the region between hepatocytes and sinusoidal endothelial cells involved in nutrient exchange.
+
+Hepatic stellate cells store vitamin A and play a major role in liver fibrosis when activated.
+
+Liver abscesses are collections of pus within the liver caused by bacterial or parasitic infections.
+
+Hydatid cysts of the liver are commonly caused by infection with Echinococcus parasites.
+
+Amoebic liver abscess is a complication of infection with Entamoeba histolytica.
+
+Budd-Chiari syndrome results from obstruction of hepatic venous outflow and can cause liver enlargement and pain.
+
+Portal vein thrombosis is the formation of a clot within the portal vein and may impair blood flow to the liver.
+
+Liver cysts are fluid-filled sacs that are often benign and discovered incidentally during imaging.
+
+Focal nodular hyperplasia is a benign liver lesion that usually does not require treatment.
+
+Hepatic adenoma is a benign liver tumor that may be associated with hormone use and carries a risk of bleeding.
+
+Cholangiocarcinoma is a cancer arising from the bile ducts and often presents with jaundice.
+
+Pruritus or itching is a common symptom of cholestatic liver diseases.
+
+Spider angiomas are small dilated blood vessels that may appear in chronic liver disease.
+
+Palmar erythema is redness of the palms that can occur in patients with chronic liver disease.
+
+Splenomegaly often develops secondary to portal hypertension in advanced liver disease.
+
+Thrombocytopenia is commonly observed in chronic liver disease due to splenic sequestration and reduced thrombopoietin production.
+
+Nutrition plays an important role in managing chronic liver disease and preventing muscle loss.
+
+Patients with cirrhosis are at increased risk of bacterial infections due to immune dysfunction.
+
+Hepatorenal syndrome is a serious complication where advanced liver disease leads to progressive kidney dysfunction.
+
+Hepatopulmonary syndrome involves abnormal oxygenation due to liver disease and changes in lung blood vessels.
+
+Liver disease may remain asymptomatic for years before symptoms become clinically apparent.
+
+Routine screening of high-risk individuals can improve early detection of chronic liver disease and liver cancer.
+
+Maintaining a healthy body weight, limiting alcohol intake, receiving recommended vaccinations, and managing diabetes are important strategies for preserving long-term liver health.
+
+Liver diseases develop when the normal structure and function of hepatocytes are disrupted by chronic inflammation, metabolic disorders, infections, toxins, autoimmune reactions, or genetic abnormalities. The progression of liver disease is often slow and silent, with many patients remaining asymptomatic for years before clinical manifestations become apparent. Persistent liver injury stimulates the activation of hepatic stellate cells, leading to collagen deposition and fibrosis. If the underlying cause is not controlled, fibrosis progresses to cirrhosis, where scar tissue replaces healthy liver architecture and significantly reduces the liver's ability to metabolize nutrients, synthesize proteins, detoxify harmful substances, and regulate immune responses. Early diagnosis through blood tests, imaging studies, and appropriate medical evaluation allows many forms of liver disease to be managed effectively and may prevent irreversible damage.
+
+Metabolic dysfunction-associated steatotic liver disease is one of the fastest growing causes of chronic liver disease worldwide. It develops when excess fat accumulates within hepatocytes due to obesity, insulin resistance, type 2 diabetes mellitus, sedentary lifestyle, and unhealthy dietary habits. While simple steatosis may remain stable for years, some individuals develop steatohepatitis characterized by inflammation and liver cell injury, increasing the risk of fibrosis, cirrhosis, and hepatocellular carcinoma. Weight reduction through calorie control, regular physical activity, management of blood glucose and lipid levels, and treatment of metabolic syndrome significantly improve liver function and reduce disease progression. Even moderate weight loss has been shown to decrease hepatic fat content and inflammation.
+
+Alcohol-related liver disease results from prolonged excessive alcohol consumption that overwhelms the liver's metabolic capacity and generates toxic metabolites such as acetaldehyde. These compounds produce oxidative stress, mitochondrial dysfunction, and chronic inflammation that progressively damage hepatocytes. The disease typically advances from reversible fatty liver to alcoholic hepatitis and finally to irreversible cirrhosis if alcohol intake continues. Patients may experience jaundice, abdominal pain, fever, weakness, muscle wasting, and fluid accumulation within the abdomen. Complete abstinence from alcohol remains the cornerstone of treatment, while nutritional rehabilitation, vitamin supplementation, medical management of complications, and liver transplantation in selected patients can substantially improve survival and quality of life.
+
+Viral hepatitis remains a major global health problem and is caused by infection with hepatitis A, B, C, D, or E viruses. Hepatitis A and E usually produce acute infections transmitted through contaminated food and water and often resolve without chronic complications. Hepatitis B and C are transmitted primarily through blood exposure and body fluids and have the potential to establish chronic infection. Chronic viral replication causes continuous inflammation that gradually destroys liver tissue and increases the risk of fibrosis, cirrhosis, portal hypertension, and hepatocellular carcinoma. Modern antiviral therapies can suppress hepatitis B viral activity and cure the majority of hepatitis C infections, greatly reducing long-term complications when treatment is initiated before advanced liver damage occurs.
+
+Autoimmune liver diseases occur when the immune system mistakenly attacks normal liver cells or bile ducts, producing chronic inflammation and progressive tissue destruction. Autoimmune hepatitis primarily affects hepatocytes, whereas primary biliary cholangitis and primary sclerosing cholangitis predominantly involve the bile ducts. Patients commonly present with fatigue, itching, jaundice, elevated liver enzymes, and abnormal immune markers. Long-term immunosuppressive therapy using corticosteroids and other agents can effectively control inflammation and slow disease progression, although untreated disease may eventually lead to cirrhosis and liver failure requiring transplantation.
+
+Inherited metabolic disorders also contribute significantly to chronic liver disease. Wilson disease causes excessive copper accumulation in the liver, brain, and other organs because of impaired copper excretion, while hereditary hemochromatosis leads to excessive iron deposition that damages hepatocytes through oxidative injury. Alpha-1 antitrypsin deficiency results in abnormal protein accumulation within liver cells, causing chronic inflammation and fibrosis. Early diagnosis through genetic testing and biochemical evaluation allows targeted therapies such as copper chelation, therapeutic phlebotomy, or supportive management to prevent irreversible liver injury and improve long-term outcomes.
+
+Drug-induced liver injury represents a significant cause of both acute and chronic liver dysfunction. Prescription medications, herbal supplements, traditional medicines, industrial chemicals, and over-the-counter drugs may trigger direct hepatotoxicity or immune-mediated liver damage. Acetaminophen overdose is among the leading causes of acute liver failure and requires immediate administration of N-acetylcysteine to minimize hepatocyte injury. Careful medication review, prompt discontinuation of offending agents, supportive medical care, and close monitoring of liver function tests are essential components of management. Patients with existing liver disease are often more susceptible to medication-related complications and should consult healthcare professionals before starting new drugs or supplements.
+
+Portal hypertension develops when fibrosis and cirrhosis increase resistance to blood flow through the liver, causing elevated pressure within the portal venous system. As portal pressure rises, collateral blood vessels form throughout the gastrointestinal tract, producing esophageal and gastric varices that carry a substantial risk of life-threatening hemorrhage. Additional complications include splenomegaly, thrombocytopenia, ascites, spontaneous bacterial peritonitis, and hepatic encephalopathy resulting from impaired detoxification of ammonia and other neurotoxins. Medical management includes non-selective beta blockers, endoscopic treatment of varices, sodium restriction, diuretics, therapeutic paracentesis, antibiotics when indicated, and liver transplantation for advanced disease.
+
+Liver cancer most commonly develops in the setting of chronic liver disease and cirrhosis, although chronic hepatitis B infection may cause hepatocellular carcinoma even in the absence of cirrhosis. Progressive genetic mutations, chronic inflammation, oxidative stress, and repeated cycles of hepatocyte injury and regeneration contribute to malignant transformation. Early-stage disease is frequently asymptomatic, highlighting the importance of routine surveillance using ultrasound and alpha-fetoprotein measurements in high-risk individuals. Treatment options include surgical resection, liver transplantation, local ablative therapies, transarterial chemoembolization, targeted molecular therapies, immunotherapy, and radiation therapy. Prognosis is significantly improved when tumors are detected before vascular invasion or distant metastasis.
+
+The liver possesses remarkable regenerative capacity and can restore a substantial portion of its mass after injury or surgical removal. However, continuous exposure to metabolic stress, viral infection, alcohol, toxins, or autoimmune activity eventually overwhelms regenerative mechanisms and promotes progressive fibrosis. Maintaining a healthy body weight, engaging in regular physical activity, consuming a balanced diet, avoiding excessive alcohol intake, receiving recommended vaccinations, controlling diabetes and hypertension, practicing safe blood exposure precautions, and participating in routine medical screening are among the most effective strategies for preserving long-term liver health and preventing chronic liver disease.
