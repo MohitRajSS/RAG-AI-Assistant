@@ -1,11 +1,10 @@
-import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
-import joblib
 import requests
+import joblib
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 # -----------------------------
-# Create Embedding
+# Create Query Embedding
 # -----------------------------
 def create_embedding(text_list):
     r = requests.post(
@@ -15,6 +14,8 @@ def create_embedding(text_list):
             "input": text_list
         }
     )
+
+    r.raise_for_status()
     return r.json()["embeddings"]
 
 
@@ -31,105 +32,115 @@ def inference(prompt):
         }
     )
 
-    data = r.json()
-    return data.get("response", "No response from model")
+    r.raise_for_status()
+
+    return r.json()["response"]
 
 
 # -----------------------------
-# Load stored embeddings
+# Load database
 # -----------------------------
-df = joblib.load('embeddings.joblib')
-
+df = joblib.load("embeddings.joblib")
 
 # -----------------------------
-# Ask user query
+# User Query
 # -----------------------------
 query = input("\nAsk a Question: ")
 
-
 # -----------------------------
-# Create query embedding
+# Query Embedding
 # -----------------------------
 query_embedding = create_embedding([query])[0]
 
-
-
 # -----------------------------
-# Convert embeddings into matrix
+# Similarity Search
 # -----------------------------
 embedding_matrix = np.vstack(df["embedding"].values)
 
-
-# -----------------------------
-# Compute cosine similarity
-# -----------------------------
 similarities = cosine_similarity(
     embedding_matrix,
     [query_embedding]
 ).flatten()
 
-
-# -----------------------------
-# Get top-k matches
-# -----------------------------
 top_k = 3
+
 top_indices = similarities.argsort()[-top_k:][::-1]
-new_df = df.iloc[top_indices]
 
-
-# -----------------------------
-# Create prompt
-# -----------------------------
-prompt = f'''I am working in a medical company and need the answers according to the content below:
-
-{new_df.to_json()}
-
-----------------------------------------
-
-User Question:
-{query}
-
-User asked this question related to the liver. Answer ONLY from the above content.
-If the question is unrelated, ask the user to stay within liver-related topics.
-'''
-
+retrieved_chunks = df.iloc[top_indices]
 
 # -----------------------------
-# Print retrieved chunks
+# Print Retrieved Chunks
 # -----------------------------
 print("\n==============================")
-print("Top Matching Chunks")
+print("Retrieved Chunks")
 print("==============================")
 
-for i in top_indices:
-    print("\n------------------------------")
-    print("Chunk ID :", df.iloc[i]["chunk_id"])
-    print("Similarity Score :", similarities[i])
-    print("\nText:\n")
-    print(df.iloc[i]["text"])
+context = ""
 
+for _, row in retrieved_chunks.iterrows():
+
+    print("\n------------------------------")
+    print("Chunk ID :", row["chunk_id"])
+    print("Similarity :", similarities[row.name])
+
+    print("\nText:\n")
+    print(row["text"])
+
+    context += f"""
+Chunk {row['chunk_id']}:
+{row['text']}
+
+"""
 
 # -----------------------------
-# Get LLaMA Answer
+# Prompt
+# -----------------------------
+prompt = f"""
+You are an AI assistant for a medical company.
+
+Answer ONLY using the information provided in the Context.
+
+If the answer cannot be found in the Context, reply:
+
+"The provided documents do not contain enough information to answer this question."
+
+If the question is unrelated to liver topics, politely ask the user to ask a liver-related question.
+
+--------------------
+Context
+--------------------
+
+{context}
+
+--------------------
+Question
+--------------------
+
+{query}
+
+--------------------
+Answer
+--------------------
+"""
+
+# Save prompt for debugging
+with open("prompt.txt", "w", encoding="utf-8") as f:
+    f.write(prompt)
+
+# -----------------------------
+# LLM Answer
 # -----------------------------
 response = inference(prompt)
 
+# Save response
+with open("response.txt", "w", encoding="utf-8") as f:
+    f.write(response)
 
 # -----------------------------
-# Print final answer
+# Final Answer
 # -----------------------------
 print("\n==============================")
-print("FINAL ANSWER (LLaMA)")
+print("FINAL ANSWER")
 print("==============================\n")
 
-print(response.strip())
-
-
-# -----------------------------
-# Save prompt + response
-# -----------------------------
-with open("prompt.txt", "w") as f:
-    f.write(prompt)
-
-with open("response.txt", "w") as f:
-    f.write(response)
+print(response)
