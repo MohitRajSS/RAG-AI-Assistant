@@ -1,10 +1,7 @@
 import requests
-import os
-import json
-import numpy as np
 import pandas as pd
-from sklearn.metrics.pairwise import cosine_similarity
 import joblib
+
 # -----------------------------
 # Create Embeddings
 # -----------------------------
@@ -17,22 +14,22 @@ def create_embedding(text_list):
         }
     )
 
-    embeddings = r.json()["embeddings"]
-    return embeddings
+    r.raise_for_status()
+    return r.json()["embeddings"]
 
 
 # -----------------------------
-# Read txt file and create chunks
+# Read txt file
 # -----------------------------
-file_path = "input.txt"      # Your txt file
+file_path = "input.txt"
 
 with open(file_path, "r", encoding="utf-8") as f:
     text = f.read()
 
-# Split on blank lines (each paragraph is one chunk)
+# Split paragraphs
 paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
 
-print(f"Total Chunks: {len(paragraphs)}")
+print(f"Total Chunks : {len(paragraphs)}")
 
 # -----------------------------
 # Create embeddings
@@ -40,23 +37,20 @@ print(f"Total Chunks: {len(paragraphs)}")
 embeddings = create_embedding(paragraphs)
 
 # -----------------------------
-# Store in list of dictionaries
+# Store data
 # -----------------------------
-my_dicts = []
+records = []
 
 for idx, (chunk, embedding) in enumerate(zip(paragraphs, embeddings)):
-    my_dicts.append({
+    records.append({
         "chunk_id": idx,
         "text": chunk,
         "embedding": embedding
     })
 
-# -----------------------------
-# Convert to DataFrame
-# -----------------------------
-df = pd.DataFrame.from_records(my_dicts)
-#Save this dataframe
-joblib.dump(df,'embeddings.joblib')
+df = pd.DataFrame(records)
 
+joblib.dump(df, "embeddings.joblib")
+
+print("\nEmbeddings saved successfully!")
 print(df.head())
-
